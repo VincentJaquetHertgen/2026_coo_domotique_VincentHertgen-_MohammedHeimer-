@@ -101,5 +101,8 @@ public class Telecommande {
 		else
 			return(null);
 	}
+	public int getNombre(){
+		return this.appareils.size();
+	}
 
 }
